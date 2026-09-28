@@ -1,0 +1,22 @@
+[project]
+name = "fitness-nutrition-assistant"
+version = "0.1.0"
+description = "LangChain-based Fitness & Nutrition Assistant with Streamlit and RAG"
+requires-python = ">=3.12"
+dependencies = [
+  "streamlit",
+  "python-dotenv",
+  "langchain",
+  "langchain-community",
+  "langchain-core",
+  "langchain-openai",
+  "langchain-text-splitters",
+  "qdrant-client",
+  "sentence-transformers",
+  "pymupdf",
+  "watchdog",
+  "rank-bm25",
+  "tiktoken",
+  "requests",
+  "loguru"
+]
